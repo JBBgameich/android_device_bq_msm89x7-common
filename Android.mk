@@ -18,3 +18,5 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(BOARD_VENDOR_PLATFORM),msm89x7-common)
 
 include $(call first-makefiles-under,$(LOCAL_PATH))
+
+endif
